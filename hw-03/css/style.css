@@ -106,8 +106,8 @@ section {
   display: block;
 }
 body {
-  line-height: 1; 
-    font-size: 0;  
+  line-height: 1;
+  font-size: 0;
 }
 ol,
 ul {
@@ -142,7 +142,6 @@ li {
   display: inline-block;
   width: 144px;
   text-transform: uppercase;
-  
 }
 
 a:hover {
@@ -164,17 +163,36 @@ li > a {
 }
 p {
   font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
 }
 .title {
   font-family: "Ubuntu";
   color: rgb(180, 173, 158);
   text-transform: uppercase;
+  margin-bottom: 22px;
 }
 article {
-    width: 420px;
-    display:inline-block;
+  width: 420px;
+  display: inline-block;
 }
-.left{
-    margin-right: 60px;
+.left {
+  margin-right: 60px;
 }
-
+img {
+  margin-bottom: 30px;
+}
+h2 {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  font-weight: normal;
+  padding-bottom: 30px;
+}
+.content {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.714em;
+  padding-bottom: 130px;
+}
