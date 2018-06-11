@@ -139,9 +139,9 @@ table {
   margin: 0 auto 80px;
 }
 li {
-  display: inline-block;
-  width: 144px;
+  display: inline-block;  
   text-transform: uppercase;
+  /*width: 144px;*/
 }
 
 a:hover {
@@ -162,14 +162,16 @@ li > a {
   text-decoration: none;
   color: rgb(98, 98, 98);
 }
-li:last-of-type >a {
-    text-align: right;
+li:nth-child(1) {
+   /* text-align: right;*/
+   padding-right: 120px;
 }
-li:nth-child(2) > a {
-    text-align: center;
+li:nth-child(2){
+  padding-right: 100px; 
 }
-li:nth-child(3) > a {
-    text-align: right;
+li:nth-child(3) {
+  padding-right: 95px; 
+    
 }
 p {
   font-size: 14px;
