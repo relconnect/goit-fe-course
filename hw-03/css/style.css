@@ -160,6 +160,7 @@ li > a {
   text-align: left;
   line-height: 50px;
   text-decoration: none;
+  color: rgb(98, 98, 98);
 }
 li:last-of-type >a {
     text-align: right;
