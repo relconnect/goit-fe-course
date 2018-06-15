@@ -1,0 +1,60 @@
+.wrapper {
+    width: 1110px; 
+    margin:0 auto;  
+
+}
+.logo {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Roboto light', 'sans-serif';
+    width: 78px;  
+    float: left;
+    color:#555252;
+}
+.logo p {
+    margin:0;    
+}
+.logo::first-letter{
+    color: #1abc9c;
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+}
+header {
+    padding-top: 35px;
+}
+nav {
+    float: right;
+}
+ul {
+    margin: 0;
+    font-size: 0px;
+}
+li {
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;  
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 34px;
+    padding: 0 25px;
+    
+}
+li:last-of-type {
+    padding-right:0;
+}
+
+li > a {
+    text-decoration:none;
+    color: #0f0101;
+    line-height: 34px;
+    display: block;
+    height:100%;
+    font-weight: black;
+}
+.first-link {
+    color: #1abc9c;
+}
+a:hover {
+    color:#1abc9c;
+}
+
