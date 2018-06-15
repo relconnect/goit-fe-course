@@ -6,8 +6,7 @@
 .logo {
     text-transform: uppercase;
     font-size: 30px;
-    font-family: 'Roboto light', 'sans-serif';
-    width: 78px;  
+    font-family: 'Roboto light', 'sans-serif';      
     float: left;
     color:#555252;
 }
@@ -21,6 +20,7 @@
 }
 header {
     padding-top: 35px;
+    margin-bottom: 90px;
 }
 nav {
     float: right;
@@ -34,8 +34,7 @@ li {
     font-size: 14px;
     font-family: "Open Sans", sans-serif;  
     font-weight: bold;
-    text-transform: uppercase;
-    height: 34px;
+    text-transform: uppercase;    
     padding: 0 25px;
     
 }
@@ -56,5 +55,23 @@ li > a {
 }
 a:hover {
     color:#1abc9c;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h2 {
+    font-size: 48px;
+    font-family: "Roboto";
+    color: rgb(81, 81, 81);
+    text-transform: uppercase;
+    text-align: center;        
+}
+h2::after{ 
+    font-size: 0px;
+    display: block;  
+    padding-top: 22px; 
+    content: url(../img/underline-1.jpg);
 }
 
