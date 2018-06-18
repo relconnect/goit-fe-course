@@ -183,3 +183,7 @@ h3 {
 .product:hover .product-price{
     background: #7fd9c7;
 }
+.button > a {
+    text-decoration: none;
+    color: #fff;
+}
