@@ -74,4 +74,53 @@ h2::after{
     padding-top: 22px; 
     content: url(../img/underline-1.jpg);
 }
+.product {
+    width: 255px; 
+    float: left;
+    margin-right: 30px;
+    margin-bottom:30px;
+}
+.product:nth-of-type(4n+4) {
+    margin-right: 0;
+}
 
+.product-img {
+    width: 255px;  
+    height:282px;   
+    overflow: hidden;     
+}
+.product-name {
+    width: 201px;
+    height: 40px;
+    float: left;
+    text-align: left;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 50, 50);
+    font-weight:800;
+        
+ 
+}
+span {    
+    vertical-align: middle;  
+}
+
+.product-price {
+    width: 54px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color:#8c8c8c;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    color: rgb(255, 255, 255);    
+    text-transform: uppercase;
+    float: right;
+    font-weight:500;
+    
+}
