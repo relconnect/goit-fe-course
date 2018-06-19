@@ -6,9 +6,10 @@
 .logo {
     text-transform: uppercase;
     font-size: 30px;
-    font-family: 'Roboto light', 'sans-serif';      
+    font-family: Roboto, sans-serif;      
     float: left;
     color:#555252;
+    font-weight: 300;
 }
 .logo p {
     margin:0;    
@@ -33,7 +34,7 @@ li {
     display: inline-block;
     font-size: 14px;
     font-family: "Open Sans", sans-serif;  
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;    
     padding: 0 25px;
     
@@ -50,9 +51,9 @@ li > a {
     height:100%;
     font-weight: black;
 }
-.first-link {
+/* .first-link {
     color: #1abc9c;
-}
+} */
 a:hover {
     color:#1abc9c;
 }
@@ -63,7 +64,7 @@ a:hover {
 }
 h2 {
     font-size: 48px;
-    font-family: "Roboto";
+    font-family: Roboto;
     color: rgb(81, 81, 81);
     text-transform: uppercase;
     text-align: center;        
@@ -147,7 +148,7 @@ span {
 }
 .post-text {
     font-size: 14px;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: rgb(85, 82, 82);
   line-height: 1.857;
 }
