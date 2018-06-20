@@ -1,167 +1,163 @@
 .wrapper {
-    width: 1110px; 
-    margin:0 auto;  
-
+  width: 1110px;
+  margin: 0 auto;
 }
 .logo {
-    text-transform: uppercase;
-    font-size: 30px;
-    font-family: Roboto, sans-serif;      
-    float: left;
-    color:#555252;
-    font-weight: 300;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: Roboto, sans-serif;
+  float: left;
+  color: #555252;
+  font-weight: 300;
 }
 .logo p {
-    margin:0;    
+  margin: 0;
 }
-.logo::first-letter{
-    color: #1abc9c;
-    font-family: Roboto, sans-serif;
-    font-weight: 800;
+.logo::first-letter {
+  color: #1abc9c;
+  font-family: Roboto, sans-serif;
+  font-weight: 800;
 }
 header {
-    padding-top: 35px;
-    margin-bottom: 90px;
+  padding-top: 35px;
+  margin-bottom: 90px;
 }
 nav {
-    float: right;
+  float: right;
 }
 ul {
-    margin: 0;
-    font-size: 0px;
+  margin: 0;
+  font-size: 0px;
 }
 li {
-    display: inline-block;
-    font-size: 14px;
-    font-family: "Open Sans", sans-serif;  
-    font-weight: 700;
-    text-transform: uppercase;    
-    padding: 0 25px;
-    
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0 25px;
 }
 li:last-of-type {
-    padding-right:0;
+  padding-right: 0;
 }
 
 li > a {
-    text-decoration:none;
-    color: #0f0101;
-    line-height: 34px;
-    display: block;
-    height:100%;
-    font-weight: black;
+  text-decoration: none;
+  color: #0f0101;
+  line-height: 34px;
+  display: block;
+  height: 100%;
+  font-weight: black;
 }
 /* .first-link {
     color: #1abc9c;
 } */
 a:hover {
-    color:#1abc9c;
+  color: #1abc9c;
 }
 .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 h2 {
-    font-size: 48px;
-    font-family: Roboto;
-    color: rgb(81, 81, 81);
-    text-transform: uppercase;
-    text-align: center;        
+  font-size: 48px;
+  font-family: Roboto;
+  color: rgb(81, 81, 81);
+  text-transform: uppercase;
+  text-align: center;
 }
-.product-title::after{ 
-    font-size: 0px;
-    display: block;  
-    padding-top: 20px; 
-    content: url(../img/underline-1.jpg);
-    margin-bottom: 92px;
+.product-title::after {
+  font-size: 0px;
+  display: block;
+  padding-top: 20px;
+  content: url(../img/underline-1.jpg);
+  margin-bottom: 92px;
 }
 .product {
-    width: 255px; 
-    float: left;
-    margin-right: 30px;
-    margin-bottom:30px;
+  width: 255px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
-.product:nth-of-type(4n+4) {
-    margin-right: 0;
+.product:nth-of-type(4n + 4) {
+  margin-right: 0;
 }
 
 .product-img {
-    width: 255px;  
-    height:282px;   
-    overflow: hidden;     
+  width: 255px;
+  height: 282px;
+  overflow: hidden;
 }
 .product-name {
-    width: 201px;
-    height: 40px;
-    float: left;
-    text-align: left;
-    line-height: 40px;
-    text-transform: uppercase;
-    padding-left: 15px;
-    box-sizing: border-box;
-    font-size: 18px;
-    font-family: Roboto, sans-serif;
-    color: rgb(255, 255, 255);
-    background-color: rgb(50, 50, 50);
-    font-weight:800;
-        
- 
+  width: 201px;
+  height: 40px;
+  float: left;
+  text-align: left;
+  line-height: 40px;
+  text-transform: uppercase;
+  padding-left: 15px;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: rgb(50, 50, 50);
+  font-weight: 800;
 }
-span {    
-    vertical-align: middle;  
+span {
+  vertical-align: middle;
 }
 
 .product-price {
-    width: 54px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    background-color:#8c8c8c;
-    font-size: 18px;
-    font-family: Roboto, sans-serif;
-    color: rgb(255, 255, 255);    
-    text-transform: uppercase;
-    float: right;
-    font-weight:500;    
+  width: 54px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #8c8c8c;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  float: right;
+  font-weight: 500;
 }
 .product-list {
-    margin-bottom: 62px;
+  margin-bottom: 62px;
 }
-.blog-title::after{ 
-    font-size: 0px;
-    display: block;  
-    padding-top: 22px; 
-    content: url(../img/underline-1.jpg);
-    margin-bottom: 80px;
+.blog-title::after {
+  font-size: 0px;
+  display: block;
+  padding-top: 22px;
+  content: url(../img/underline-1.jpg);
+  margin-bottom: 80px;
 }
 .post-list {
-    margin-bottom: 82px;
+  margin-bottom: 82px;
 }
 .post {
-    width: 350px;
-    float: left;
-    margin-right: 30px;
+  width: 350px;
+  float: left;
+  margin-right: 30px;
 }
 .post:last-of-type {
-    margin-right: 0;
+  margin-right: 0;
 }
 .post-text {
-    font-size: 14px;
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
   color: rgb(85, 82, 82);
   line-height: 1.857;
 }
 h3 {
-    font-size: 18px;
-    font-family: "Open Sans", sans-serif;
-    color: rgb(85, 82, 82);
-    margin-top: 6px;
-    line-height: 1.444;
-    margin-bottom: 23px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(85, 82, 82);
+  margin-top: 6px;
+  line-height: 1.444;
+  margin-bottom: 23px;
 }
 .button {
-    border-radius: 3px;
+  border-radius: 3px;
   background-color: rgb(78, 198, 171);
   width: 159px;
   height: 51px;
@@ -170,21 +166,21 @@ h3 {
   font-size: 16px;
   font-family: "Open Sans";
   color: rgb(255, 255, 255);
-  }
-  h3::after{ 
-    font-size: 0px;
-    display: block;  
-    padding-top: 10px; 
-    content: url(../img/underline-2.jpg);
+}
+h3::after {
+  font-size: 0px;
+  display: block;
+  padding-top: 10px;
+  content: url(../img/underline-2.jpg);
   /*  margin-bottom: 92px;*/
 }
 .product:hover .product-name {
-    background: #1abc9c;
+  background: #1abc9c;
 }
-.product:hover .product-price{
-    background: #7fd9c7;
+.product:hover .product-price {
+  background: #7fd9c7;
 }
 .button > a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
