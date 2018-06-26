@@ -1,0 +1,320 @@
+ /*CSS FOR HEADER*/
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+  .logo {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+    float: left;
+    color: #555252;
+    font-weight: 300;
+  }
+  .logo p {
+    margin: 0;
+  }
+  .logo::first-letter {
+    color: #1abc9c;
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+  }
+  header {
+    padding: 30px 0;
+    
+  }
+  nav {
+    float: right;
+  }
+  ul {
+    margin: 0;
+    font-size: 0px;
+  }
+  li {
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 25px;
+  }
+  li:last-of-type {
+    padding-right: 0;
+  }
+  
+  li > a {
+    text-decoration: none;
+    color: #0f0101;
+    line-height: 34px;
+    display: block;
+    height: 100%;
+    font-weight: black;
+  }
+  /* .first-link {
+      color: #1abc9c;
+  } */
+  a:hover {
+    color: #1abc9c;
+  }
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /*CSS FOR SLIDER*/
+  .slider{
+    background:linear-gradient(0deg, rgba(0, 0, 2,0.522) 0%, rgba(0, 0, 2,0.522) 0%), url(../img/bg-1.png);
+    background-position: center center;
+    height: 600px;
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .slider-header {
+    display: table;
+    margin: 0 auto;
+    padding-top: 205px;
+    
+  }
+  .slider-header > h2 {
+    text-transform: uppercase;
+    margin-top:0;
+    font-size: 60px;
+    font-family:Roboto, sans-serif; 
+    color: #ffffff;
+    font-weight: 800;    
+    margin-bottom: 18px;
+    
+  }
+  .slider-header > p {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 24px;
+    font-family:Roboto, sans-serif; 
+    color: #ffffff;
+    font-weight: 200;
+    margin-top: 0;
+  }
+  .mover {
+    display: block;
+    width: 104px;
+   height: 104px;
+   background-color: rgba(78, 198, 171,0.651);  
+  position: absolute;
+  top: calc(50% - 70px);  
+  }
+  .prev {
+    left: 245px;
+  }
+  .next {
+    right: 245px;
+  }
+  .mover:after {
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #fff;
+    border-radius: 1px;
+    top:50%;
+    border-bottom: none;
+  }
+  .mover.prev:after{
+    border-right: none;
+    transform:rotate(-45deg);
+    transform-origin:0 0;
+    left: 40px;
+  }
+  .mover.next:after{
+    border-left: none;
+    transform:rotate(45deg);
+    transform-origin:100% 0;
+    right: 40px;
+  }
+  .mover:hover {
+    background-color: rgb(26, 188, 156);
+  }
+
+   /*CSS FOR NEW COLLECTION*/
+   .product-section {
+     box-sizing: border-box;
+     max-width: 1600px;
+     height: 675px;
+     margin: 0 auto;
+     background-color: rgb(233, 240, 253);     
+     padding-top: 50px;
+   }
+   .product-section > h2 {     
+    font-size: 48px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(81, 81, 81);
+   }
+
+   .product-title::after {
+    font-size: 0px;
+    display: block;
+    padding-top: 20px;
+    content: url(../img/underline-1.jpg);
+    margin-bottom: 80px;
+  }
+  .product-list {
+    width: 1170px;
+    margin: 0 auto;    
+  }
+  .product {
+    width: 255px;
+    float: left;
+    margin-right: 30px;    
+  }
+  .product-img {
+    width: 255px;
+    height: 282px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .product-img-icons {
+    display: none;
+    position: absolute;
+    width: 235px;
+    height: 263px;
+    margin: 10px 10px 0;
+    background-color: ;    
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.549);
+  }
+  .product-icons-row {
+    position: absolute;
+    top: 80px;
+  }
+  .product-icons-row ul {
+    padding-left: 31px;   
+  }
+  .product-icons-row li{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #ffff;
+    margin-right: 10px;  
+    padding: 0;
+  }
+  .product-icons-row p{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Roboto;
+    line-height: 48px;
+  }
+ .basket-text {
+  width: 170px;
+  height: 48px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  margin: 8px 0 0 31px;
+  text-align: right;
+  padding-right: 18px;
+  
+ }
+ .icon-basket{
+  position: absolute;
+  left: 45px;
+  top: 66px;
+  display: block;
+ }
+.icon-heart > img {
+  position: absolute;
+  left: 42px;
+  top: 15px;
+}
+.icon-arrow > img {
+  position: absolute;
+  left: 103px;
+  top: 15px;
+}
+.icon-clock > img {
+  position: absolute;
+  left: 165px;
+  top: 13px;
+}
+  .product-name {
+    width: 201px;
+    height: 40px;
+    float: left;
+    text-align: left;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 50, 50);
+    font-weight: 800;
+  }
+  .product-price {
+    width: 54px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #8c8c8c;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    float: right;
+    font-weight: 500;
+  }
+  .product:hover .product-name {
+    background: #1abc9c;
+  }
+  .product:hover .product-price {
+    background: #7fd9c7;
+  }
+  .product-price > span {
+    vertical-align: middle;
+  }
+  .product:hover .product-img-icons {
+    display: block;
+  }
+  .icons:hover {
+    background: #1abc9c; 
+    border: 1px solid #1abc9c ;
+    box-sizing: border-box;
+  }
+  .basket-text:hover {
+    background-color: #323232;
+  }
+  .icon-basket:hover+.basket-text {
+    background-color: #323232;
+  }
+  
+ 
+/*CSS FOR FOOTER*/
+  footer {
+    max-width: 1600px;
+    height: 88px;
+    background-color: rgb(50, 50, 50);
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;    
+  }
+  footer > p {
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(254, 254, 254);
+    display: inline-block;
+    line-height: 88px;
+    margin: 0;   
+  }
+  footer span {
+    color: #42a391;    
+  }
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
