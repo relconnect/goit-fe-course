@@ -163,13 +163,16 @@ a:hover {
   margin-bottom: 80px;
 }
 .product-list {
-  width: 1170px;
+  width: 1110px;
   margin: 0 auto;
 }
 .product {
   width: 255px;
   float: left;
   margin-right: 30px;
+}
+.product:last-of-type {
+  margin-right: 0;
 }
 .product-img {
   width: 255px;
