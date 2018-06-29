@@ -32,7 +32,7 @@ ul {
 li {
   display: inline-block;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   padding: 0 25px;
@@ -68,11 +68,14 @@ a:hover {
       rgba(0, 0, 2, 0.522) 0%
     ),
     url(../img/bg-1.png);
-  background-position: center center;
+  /* background-position: center center; */
   height: 600px;
-  max-width: 1600px;
+  /* max-width: 1600px; */
   margin: 0 auto;
   position: relative;
+  background-size: cover;
+  
+
 }
 .slider-header {
   display: table;
@@ -107,9 +110,11 @@ a:hover {
 }
 .prev {
   left: 245px;
+  /* left: 15%; */
 }
 .next {
   right: 245px;
+  /* right: 15%; */
 }
 .mover:after {
   content: "";
@@ -136,12 +141,13 @@ a:hover {
 }
 .mover:hover {
   background-color: rgb(26, 188, 156);
+  cursor: pointer;
 }
 
 /*CSS FOR NEW COLLECTION*/
 .product-section {
   box-sizing: border-box;
-  max-width: 1600px;
+  /* max-width: 1600px; */
   height: 675px;
   margin: 0 auto;
   background-color: rgb(233, 240, 253);
@@ -153,6 +159,7 @@ a:hover {
   text-transform: uppercase;
   text-align: center;
   color: rgb(81, 81, 81);
+  font-weight: 900;
 }
 
 .product-title::after {
@@ -297,7 +304,7 @@ a:hover {
 
 /*CSS FOR FOOTER*/
 footer {
-  max-width: 1600px;
+  /* max-width: 1600px; */
   height: 88px;
   background-color: rgb(50, 50, 50);
   margin: 0 auto;
@@ -306,7 +313,7 @@ footer {
 }
 footer > p {
   font-size: 16px;
-  font-family: "OpenSans";
+  font-family: 'Open Sans', sans-serif;
   color: rgb(254, 254, 254);
   display: inline-block;
   line-height: 88px;
