@@ -301,7 +301,7 @@ a:hover {
   /* cursor: pointer; */
   
 }
-.icon-basket:hover + .basket-text {
+.basket-img-href:hover + .basket-text {
   background-color: #323232;
  
 }
