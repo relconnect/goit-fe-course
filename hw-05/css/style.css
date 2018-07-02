@@ -334,3 +334,6 @@ footer span {
   display: table;
   clear: both;
 }
+p > a {
+  text-decoration: none;
+}
