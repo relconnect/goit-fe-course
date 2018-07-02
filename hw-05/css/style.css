@@ -235,20 +235,17 @@ a:hover {
   top: 66px;
   display: block;
 }
-.icon-heart > img {
+.icon-heart img ,.icon-arrow img, .icon-clock img  {
   position: absolute;
-  left: 42px;
-  top: 15px;
+  left: 10px;
+  top: 12px;
 }
-.icon-arrow > img {
+.basket-href {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
   position: absolute;
-  left: 103px;
-  top: 15px;
-}
-.icon-clock > img {
-  position: absolute;
-  left: 165px;
-  top: 13px;
+  
 }
 .product-name {
   width: 201px;
@@ -294,7 +291,7 @@ a:hover {
   background: #1abc9c;
   border: 1px solid #1abc9c;
   box-sizing: border-box;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .basket-text:hover {
   background-color: #323232;
@@ -337,3 +334,12 @@ footer span {
 p > a {
   text-decoration: none;
 }
+.icons {
+  position: relative;
+}
+.icons > a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
