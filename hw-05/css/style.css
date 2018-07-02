@@ -288,18 +288,25 @@ a:hover {
   vertical-align: middle;
 }
 .product:hover .product-img-icons {
-  display: block;
+  display: block;  
 }
 .icons:hover {
   background: #1abc9c;
   border: 1px solid #1abc9c;
   box-sizing: border-box;
+  cursor: pointer;
 }
 .basket-text:hover {
   background-color: #323232;
+  cursor: pointer;
+  
 }
 .icon-basket:hover + .basket-text {
   background-color: #323232;
+ 
+}
+.icon-basket:hover {
+  cursor: pointer;
 }
 
 /*CSS FOR FOOTER*/
