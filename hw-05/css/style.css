@@ -242,10 +242,13 @@ a:hover {
 }
 .basket-href {
   text-decoration: none;
-  height: 100%;
+  color: #fff;
   width: 100%;
-  position: absolute;
-  
+  height: 100%;
+  display: block;
+}
+.basket-href:hover {
+  color: #fff;  
 }
 .product-name {
   width: 201px;
@@ -295,16 +298,16 @@ a:hover {
 }
 .basket-text:hover {
   background-color: #323232;
-  cursor: pointer;
+  /* cursor: pointer; */
   
 }
 .icon-basket:hover + .basket-text {
   background-color: #323232;
  
 }
-.icon-basket:hover {
+/* .icon-basket:hover {
   cursor: pointer;
-}
+} */
 
 /*CSS FOR FOOTER*/
 footer {
