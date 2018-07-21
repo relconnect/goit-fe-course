@@ -132,3 +132,79 @@ li:hover > a::before{
     margin: 0 auto;
     padding-top: 35px;
 }
+.team-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+.section-description {
+    max-width: 980px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    margin-bottom: 85px;
+}
+.team-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.item-photo {
+    text-align: center;
+}
+.item-name {
+    font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.item-description {
+    font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(153, 153, 153);
+  font-style: italic;
+  line-height: 1.2;  
+}
+.photo-wrapper {
+   position: relative;
+    max-height: 470px;   
+    
+}
+.photo-wrapper::before {   
+    content: " ";
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;   
+    opacity: 0;
+    transition-property:background-image,opacity,transform;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+}
+.photo {
+    transition-property:transform,box-shadow;
+    transition-duration: 200ms;
+    transition-timing-function: linear;    
+}
+
+.photo-wrapper:hover .photo {
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px rgb(149, 225, 211);
+}
+.photo-wrapper:hover::before {  
+    content: " ";
+    position: absolute;
+    transform: translate(-5px, -5px);
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image:  linear-gradient( 0, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+    
+    opacity: 0.8;
+}
