@@ -96,7 +96,8 @@ li:hover > a::before {
   font-size: 14px;
   text-transform: uppercase;
   color: rgb(51, 51, 51);
-}
+  font-weight: 400;
+  }
 .section-paragraph {
   font-size: 24px;
   font-family: "Kaushan Script";
