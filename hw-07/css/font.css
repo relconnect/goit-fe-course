@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/MontserratBold/Montserrat-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/MonseratRegular/Montserrat-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Yellowtailt";
+    src: url("../fonts/Yellowtail/Yellowtail-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf");
+    font-weight:400;
+   
+}
+@font-face {
+    font-family: "Roboro Slab";
+    src: url("../fonts/RobotoSlab/roboto-slab-v7-latin-regular.woff2");
+    font-weight:400;
+    font-style: normal;   
+}
