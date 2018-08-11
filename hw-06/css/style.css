@@ -87,7 +87,9 @@ li:hover > a::before {
   flex-basis: 33.33%;
 }
 .service-img {
-  height: fit-content;
+  /* height: fit-content; */
+  object-fit: contain;
+  object-position: top;
   margin-top: 1em;
   padding: 0 30px;
 }

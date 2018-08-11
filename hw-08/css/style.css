@@ -1,71 +1,186 @@
 html {
-    font-size: 10px;
+  font-size: 10px;
 }
 .head-section {
-    font-size: 1.4rem;
-    font-family: "Montserrat", sans-serif;
-    /* color: rgb(255, 255, 255); */
-    font-weight: bold;
-    line-height: 1.2;
-    padding: 2rem 1.4rem 13rem;
-    background-image: url(../img/bg-people-mobile.jpg);
-    background-position: center top;
-    background-repeat: no-repeat;
-    
+  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+  /* color: rgb(255, 255, 255); */
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 2rem 1.4rem 0;
+  background-image: url(../img/bg-people-mobile.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  min-height: 540px;
+  box-sizing: border-box;
 }
 ul {
-display: flex;
-flex-wrap: wrap;
-justify-content: center; 
-margin: 0rem;
-padding: 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
 }
 li {
-    list-style: none;    
-  }
-  li>a {
-      text-decoration: none;
-      color: rgb(255, 255, 255);
-      display: block;
-      padding: 1rem 1.7rem;      
-  }
-  .figure-button {
-      border: 2px solid rgb(255, 255, 255);
-      border-radius: 3rem;
-  }
-  .logo {
-      font-size: 2rem;
-      padding-top: 10.6rem;
-  }
-  h1 {
-    font-size: 3rem;
-    font-family: "Montserrat", sans-serif;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: center;
-    margin: 0px;
-    padding-top: 2.5rem;
-  
-  }
-  .header-description {
-    font-size: 1.8rem;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    color: rgb(255, 255, 255);
-    line-height: 1.2;
-    text-align: center;
-    padding: 0 30px;
-    margin:1.3rem 0;
-  }
-  .header-button {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+  list-style: none;
+}
+li > a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: block;
+  padding: 1rem 1.7rem;
+}
+.figure-button {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 3rem;
+}
+.logo {
+  font-size: 2rem;
+  padding-top: 10.6rem;
+}
+h1 {
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0px;
+  padding-top: 2.5rem;
+}
+.header-description {
+  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  padding: 0 3rem;
+  margin: 1.3rem 0;
+}
+.header-button {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  display: block;
+  padding: 1rem 0;
+  border-radius: 2rem;
+  background-color: rgb(255, 78, 80);
+  transition-property: color, background-color, border;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  border: 2px solid rgb(255, 78, 80);
+  border: 2px solid transparent;
+}
+.header-button:hover {
+  color: rgb(255, 78, 80);
+  background-color: #fff;
+  border: 2px solid rgb(255, 78, 80);
+}
+.main-section {
+  padding: 0 15px 55px;
+}
+.main-section-header {
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 68px;
+  margin: 0;
+}
+.partner-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 0 1 80%;
+  padding-bottom: 16px;
+}
+.partner-image {
+  width: 122px;
+  margin: 0 auto;
+  padding-bottom: 7px;
+  position: relative;
+}
+.partner-avatar {
+  flex: 0 1 70%;
+  padding-top: 15px;
+}
+.partner-image > img {
+  display: block;
+  border-radius: 50%;
+}
+.partner-name {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+.partner-description {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(102, 102, 102);
+  line-height: 1.2;
+  text-align: center;
+}
+.partner-icon {
+  background-color: #ff4e50;
+  position: absolute;
+  /* width: 34px;
+      height: 34px; */
+  border-radius: 50%;
+  border: 4px solid #fff;
+  position: absolute;
+  bottom: 0;
+  right: -10px;
+  padding: 10px;
+  display: flex;
+}
+.partner-icon-inner {
+  width: 15px;
+  height: 15px;
+}
+
+.micsture-icon {
+  background-color: #ffa507;
+}
+.coffe-icon {
+  background-color: #1cd7ad;
+}
+.telegram-icon {
+  background-color: #4e73db;
+}
+.main-section-button {
+  box-sizing: border-box;
+  text-decoration: none;
+  /* color: rgb(255, 78, 80);
     text-align: center;
     display: block;
-    padding:15px 0;    
-    border-radius: 20px;
-    background-color: rgb(255, 78, 80);
- 
-  }
+    padding:1.2rem 0;    
+    border-radius: 2rem;
+    background-color:rgb(255, 255, 255);  */
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 78, 80);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  border: 2px solid rgb(255, 78, 80);
+  border-radius: 2rem;
+  padding: 1.1rem 0;
+  display: block;
+  background-color: transparent;
+  transition-property: color, background-color;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+.main-section-button:hover {
+  color: #fff;
+  background-color: rgb(255, 78, 80);
+
+  box-sizing: border-box;
+}
