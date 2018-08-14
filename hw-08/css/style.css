@@ -211,12 +211,8 @@ h1 {
 
   box-sizing: border-box;
 }
-<<<<<<< HEAD
 
 @media (min-width:440px){
-=======
-@media (min-width:321px){
->>>>>>> b67570a6474236209acbcabf156d28f8a2ca0e95
   .head-section {
     background-image: url(../img/bg-img-t.png);
     background-repeat: no-repeat;
