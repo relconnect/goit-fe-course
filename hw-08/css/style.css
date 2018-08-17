@@ -98,7 +98,7 @@ h1 {
 }
 .header-button:hover {
   color: rgb(255, 78, 80);
-  background-color: #fff;
+  background-color: transparent;
   border: 2px solid rgb(255, 78, 80);
 }
 .main-section {
