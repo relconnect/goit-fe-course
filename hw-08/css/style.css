@@ -37,7 +37,7 @@ li > a {
   transition-timing-function: linear;
 }
 .figure-button {
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid transparent;
   border-radius: 3rem;
   transition-property: border,color;
   transition-duration: 200ms;
@@ -231,6 +231,7 @@ h1 {
     }
     .logo {
       padding: 0px;
+      display: inline-block;
     }
     nav {
       padding: 0 30px;
