@@ -1,0 +1,17 @@
+/*
+   Import partials below
+*/
+@import "normalize";
+
+html {
+  font-size: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+@import "variables";
+@import "head-section.scss";
+@import "main-section";
+@import "media-queries";

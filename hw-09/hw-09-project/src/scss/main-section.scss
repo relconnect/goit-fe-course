@@ -1,0 +1,110 @@
+.main-section-header {
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: $partner-name-color;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 68px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.partner-icon {
+  background-color: $hover-color;
+  position: absolute;
+  border-radius: 50%;
+  border: 4px solid $white;
+  position: absolute;
+  bottom: 0;
+  right: -10px;
+  padding: 10px;
+  display: flex;
+}
+
+.partner-icon-inner {
+  width: 15px;
+  height: 15px;
+}
+
+.partner-avatar {
+  padding-top: 15px;
+  font-weight: 300;
+  line-height: 1.2;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 289px;
+  margin: 0 auto;
+}
+
+.partner-name {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: $partner-name-color;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.partner-description {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: $partner-description-color;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.partner-image {
+  width: 122px;
+  margin: 0 auto;
+  padding-bottom: 7px;
+  position: relative;
+
+  img {
+    display: block;
+    border-radius: 50%;
+  }
+}
+
+.micsture-icon {
+  background-color: var(--yellow);
+}
+
+.coffe-icon {
+  background-color: $coffe-color;
+}
+
+.telegram-icon {
+  background-color: $telegram-color;
+}
+
+.main-section-button {
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: $hover-color;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  border: 2px solid $hover-color;
+  border-radius: 2rem;
+  padding: 1.1rem 0;
+  display: block;
+  max-width: 280px;
+  margin: 0 auto;
+  background-color: transparent;
+  transition-property: color, background-color;
+  transition-duration: $duration;
+  transition-timing-function: linear;
+
+  &:hover {
+    color: #fff;
+    background-color: $hover-color;
+    box-sizing: border-box;
+  }
+}
+
+.button-section {
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
