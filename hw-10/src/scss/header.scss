@@ -12,6 +12,10 @@
   height: 100vh;
 }
 
+.hamburger {
+  display: none;
+}
+
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .header {
     background-image: linear-gradient(
