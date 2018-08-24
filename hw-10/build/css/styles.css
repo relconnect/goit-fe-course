@@ -416,7 +416,7 @@ template {
   background-position: top;
   background-size: cover;
   padding-top: 25px;
-  height: 100vh;
+  padding-bottom: 100px;
 }
 
 .hamburger {
@@ -1770,6 +1770,43 @@ template {
   bottom: 0;
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
+}
+
+.service__text {
+  font-size: 24px;
+  font-family: "KaushanScript";
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.service__text--main {
+  padding-top: 50px;
+}
+
+.service__title {
+  font-size: 30px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #333333;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.service__title:after {
+  content: " ";
+  border-bottom: 4px solid #f38181;
+  width: 65px;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+
+.serice-item {
+  padding-top: 65px;
 }
 
 @media (max-width: 1400px) {
