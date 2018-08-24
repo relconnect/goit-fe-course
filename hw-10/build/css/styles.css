@@ -1794,7 +1794,7 @@ template {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .header__title {
     font-size: 4rem;
   }
@@ -1802,6 +1802,10 @@ template {
   .header__text {
     font-size: 2.8rem;
     padding-top: 3rem;
+  }
+
+  .navigation__link--logo {
+    margin-bottom: 20px;
   }
 }
 
@@ -1814,6 +1818,10 @@ template {
   .header__text {
     font-size: 1.8rem;
     padding-top: 1.5rem;
+  }
+
+  .navigation__link--logo {
+    margin-bottom: 0px;
   }
 
   nav {
@@ -1840,6 +1848,13 @@ template {
     background-color: #dd8985;
     width: 70%;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 460px) {
+  .header__title {
+    font-size: 3rem;
+    padding-bottom: 50px;
   }
 }
 
