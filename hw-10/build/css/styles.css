@@ -1956,8 +1956,12 @@ template {
 }
 
 .social__img:hover {
-  background-color: #95e1d3;
+  background-color: #f38181;
   cursor: pointer;
+}
+
+.social__img:hover .social__icon {
+  fill: #fff;
 }
 
 .item-photo__name {
@@ -1976,6 +1980,12 @@ template {
   color: #999999;
   font-style: italic;
   line-height: 1.2;
+}
+
+.social__icon {
+  fill: #f38181;
+  width: 20px;
+  height: 20px;
 }
 
 .footer-line {
