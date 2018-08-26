@@ -1,0 +1,60 @@
+.service__text {
+  font: {
+    size: 24px;
+    family: "KaushanScript", sans-serif;
+  }
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+
+  &--main {
+    padding-top: 50px;
+  }
+}
+
+.service__title {
+  font: {
+    size: 30px;
+    family: "Montserrat", sans-serif;
+    weight: bold;
+  }
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  &:after {
+    content: " ";
+    border-bottom: 4px solid rgb(243, 129, 129);
+    width: 65px;
+    margin: 0 auto;
+    padding-top: 35px;
+  }
+}
+
+.service-item {
+  padding-top: 65px;
+}
+
+.service-item__icon {
+  width: 37px;
+  height: 37px;
+  fill: #95e1d3;
+  margin-top: 5px;
+}
+
+.service-item__title {
+  font: {
+    size: 14px;
+    family: "Montserrat", sans-serif;
+  }
+  text: {
+    transform: uppercase;
+    align: left;
+  }
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+}
