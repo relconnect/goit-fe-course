@@ -18,6 +18,11 @@
     font-size: 3.2rem;
     padding-top: 4rem;
   }
+
+  .social__img {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -32,6 +37,11 @@
 
   .navigation__link--logo {
     margin-bottom: 20px;
+  }
+
+  .social__img {
+    width: 56px;
+    height: 56px;
   }
 }
 
