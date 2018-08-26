@@ -6,44 +6,6 @@
 @import "media";
 @import "header";
 @import "hamburger";
-
-.service__text {
-  font: {
-    size: 24px;
-    family: "KaushanScript";
-  }
-  color: rgb(51, 51, 51);
-  line-height: 1.2;
-  text-align: center;
-
-  &--main {
-    padding-top: 50px;
-  }
-}
-
-.service__title {
-  font: {
-    size: 30px;
-    family: "Montserrat";
-    weight: bold;
-  }
-  color: rgb(51, 51, 51);
-  text-transform: uppercase;
-  line-height: 1.2;
-  text-align: center;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-
-  &:after {
-    content: " ";
-    border-bottom: 4px solid rgb(243, 129, 129);
-    width: 65px;
-    margin: 0 auto;
-    padding-top: 35px;
-  }
-}
-
-.serice-item {
-  padding-top: 65px;
-}
+@import "service-section";
+@import "team-section";
+@import "footer";

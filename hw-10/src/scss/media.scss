@@ -83,3 +83,40 @@
     padding-bottom: 50px;
   }
 }
+
+@media (max-width: 350px) {
+  .right-description__button {
+    width: 110px;
+  }
+
+  .left-description__text {
+    font-size: 12px;
+  }
+
+  .service__title {
+    font-size: 27px;
+  }
+
+  .team__title {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 575px) {
+  .service-item__title {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .service-item__text {
+    text-align: center;
+  }
+
+  .service-item {
+    padding-top: 0px;
+  }
+
+  .service-item__icon {
+    margin-top: 30px;
+  }
+}
